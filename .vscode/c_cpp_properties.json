@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "ARM",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "STM32F1",
+                "STM32F103C8T6"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m3",
+                "-mthumb",
+                "-msoft-float"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
